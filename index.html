@@ -7,8 +7,10 @@
   <meta charset="utf-8"> 
  
   <title>My A-Frame World</title> 
- 
+  
   <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script> 
+  <script src="https://unpkg.com/aframe-environment-component@1.5.x/dist/aframe-environment-component.min.js"></script>
+
  
 </head> 
  
@@ -26,13 +28,18 @@
       rotation="-90 0 0" 
       width="10" 
       height="10" 
-      color="#ff5a00"> 
+      color="#FFAD5E"> 
     </a-plane> 
+
+  
  
-    <a-sky color="#241b2f"></a-sky> 
+    <a-sky color="#7A82FF"></a-sky> 
  
+    <a-entity environment="preset:egypt"></a-entity>
+
   </a-scene> 
  
+
 </body> 
  
 </html> 
